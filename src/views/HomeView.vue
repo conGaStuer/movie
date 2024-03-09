@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div
+    class="w-full h-svh bg-[url('https://img.ophim12.cc/uploads/movies/nghich-ly-ke-sat-nhan-poster.jpg')] bg-right-top bg-cover"
+  >
+    <NavBarVue></NavBarVue>
   </div>
 </template>
 
 <script>
+import NavBarVue from "./NavBar.vue";
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
-}
+    NavBarVue,
+  },
+};
 </script>
